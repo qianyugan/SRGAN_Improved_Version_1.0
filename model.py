@@ -1,12 +1,3 @@
-# 此模型源于论文：https://arxiv.org/pdf/1609.04802.pdf
-# 中文详解：https://perper.site/2019/03/01/SRGAN-%E8%AF%A6%E8%A7%A3/
-# 代码参考：https://blog.csdn.net/NikkiElwin/article/details/112910957?spm=1001.2014.3001.5501
-# 此模型是基于 SRGAN 的超分辨率重构模型。
-# 数据集：./AnimeTest/，包含了 814 张二次元头像
-# 模型保存至 ./model/
-# 迭代生成的图片效果保存至 ./result/
-# 张志衡复现并添加注释，英语可能有纰漏，望谅解！
-
 import os
 import torch
 import numpy as np
